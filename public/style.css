@@ -1,3 +1,43 @@
-h1{ 
-    color:red
+:root{
+    --blue:#1FA2F1
+}
+.nav{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+    height:100%''
+}
+.nav a{
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   font-size:30px;
+   padding: 10px;
+   text-decoration: none;
+   color: inherit;
+  
+}
+.nav a:hover{
+
+   border-radius: 50%;
+   background-color: #d4edff;
+   ;
+   color: var(--blue);
+}
+.blue {
+    color: var(--blue);
+}
+.maincontainer{
+    background-color:red
+}
+.thir{
+    background-color:yellow
+}
+
+.row{
+    width:100%;
+    margin:0;
+}
+.logout{
+    cursor: pointer;
 }
